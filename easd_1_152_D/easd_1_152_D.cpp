@@ -48,7 +48,11 @@ void selectionsort() {
 	for (int i = 0; i < n - 1; i++)
 		B = i;
 	for (AA = i + 1; AA < n; AA++) {
-
+		if (fandi[AA] < fandi[B]) {
+			B = AA;
+		}
 	}
+	temp = fandi[B];
+
 
 }
