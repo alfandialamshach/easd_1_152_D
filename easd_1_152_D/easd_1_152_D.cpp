@@ -53,6 +53,7 @@ void selectionsort() {
 		}
 	}
 	temp = fandi[B];
-
+	fandi[B] = fandi[i];
+	fandi[i] = temp;
 
 }
