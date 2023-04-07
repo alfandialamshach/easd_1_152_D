@@ -13,3 +13,7 @@ using namespace std;
 
 int fandi[72];
 int n;
+
+void input() {
+
+}
