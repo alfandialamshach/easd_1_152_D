@@ -45,6 +45,10 @@ void selectionsort() {
 	int AA;
 	int B;
 	int temp;
-	for (int i = 0; i < n-1; i++)
+	for (int i = 0; i < n - 1; i++)
+		B = i;
+	for (AA = i + 1; AA < n; AA++) {
+
+	}
 
 }
