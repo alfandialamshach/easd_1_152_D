@@ -58,5 +58,8 @@ void selectionsort() {
 
 }
 void display() {
-
+	cout << endl;
+	cout << "\n============================" << endl;
+	cout << "Data fandi yang telah tersusun" << endl;
+	cout << "\n============================" << endl;
 }
