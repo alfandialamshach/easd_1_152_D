@@ -57,3 +57,6 @@ void selectionsort() {
 	fandi[i] = temp;
 
 }
+void display() {
+
+}
