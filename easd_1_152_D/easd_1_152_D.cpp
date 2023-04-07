@@ -15,5 +15,28 @@ int fandi[72];
 int n;
 
 void input() {
+	while (true)
+	{
+		cout << "Masukkan jumlah data fandi : ";
+		cin >> n;
+
+		if (n <= 72) {
+			break;
+		}
+		else
+			
+		{
+			cout << "\nData fandi yang anda masukkan maksimal 72 elemen.\n";
+		}
+	}
+	cout << endl;
+	cout << "===================" << endl;
+	cout << "Masukkan data fandi" << endl;
+	cout << "===================" << endl;
+
+	for (int i = 0; i < n; i++)
+	{
+
+	}
 
 }
