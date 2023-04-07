@@ -64,6 +64,11 @@ void display() {
 	cout << "\n============================" << endl;
 
 	for (int AA = 0; AA < n; AA++) {
-
+		cout << fandi[AA] << endl;
 	}
+	cout << endl;
+}
+int main()
+{
+
 }
