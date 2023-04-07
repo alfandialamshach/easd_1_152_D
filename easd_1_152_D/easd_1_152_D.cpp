@@ -47,7 +47,7 @@ void selectionsort() {
 	int temp;
 	for (int i = 0; i < n - 1; i++)
 		B = i;
-	for (AA = i + 1; AA < n; AA++) {
+	for (AA = i+1; AA < n; AA++) {
 		if (fandi[AA] < fandi[B]) {
 			B = AA;
 		}
@@ -70,5 +70,7 @@ void display() {
 }
 int main()
 {
-
+	input();
+	selectionsort();
+	display();
 }
